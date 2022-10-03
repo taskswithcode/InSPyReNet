@@ -8,7 +8,7 @@
 <br/>
 <p align="center">
   <a href="dog_running.gif">
-    <img src="dog_running.gif" alt="SOD of dog running">
+    <img src="dog_running.gif" alt="SOD of dog running" width="400">
   </a>
 </p>
 <br/>
