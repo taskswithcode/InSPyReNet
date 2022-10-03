@@ -1,4 +1,24 @@
-# Revisiting Image Pyramid Structure for High Resolution Salient Object Detection (InSPyReNet)
+<br/>
+<br/>
+<p align="center">
+  <a href="SOD.png">
+    <img src="SOD.png" alt="Salient Object detection">
+  </a>
+</p>
+
+<h3 align="center">Sailient Object reconstruction</h3>
+<br/>
+<br/>
+
+
+### Table of contents
+
+- [Original repo](#revisiting-image-pyramid-structure-for-high-resolution-salient-object-detection )
+- [Google Colab link](https://colab.research.google.com/github/taskswithcode/InSPyReNet/blob/master/TWCSOD.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/taskswithcode/InSPyReNet/blob/master/TWCSOD.ipynb)
+
+
+
+# Revisiting Image Pyramid Structure for High Resolution Salient Object Detection 
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-image-pyramid-structure-for-high/rgb-salient-object-detection-on-davis-s)](https://paperswithcode.com/sota/rgb-salient-object-detection-on-davis-s?p=revisiting-image-pyramid-structure-for-high)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-image-pyramid-structure-for-high/rgb-salient-object-detection-on-hrsod)](https://paperswithcode.com/sota/rgb-salient-object-detection-on-hrsod?p=revisiting-image-pyramid-structure-for-high)
