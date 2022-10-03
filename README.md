@@ -5,8 +5,19 @@
     <img src="SOD.png" alt="Salient Object detection">
   </a>
 </p>
-
-<h3 align="center">Sailient Object reconstruction</h3>
+<br/>
+<p align="center">
+  <a href="original.mp4">
+    <img src="original.mp4" alt="Dog running">
+  </a>
+</p>
+<p align="center">
+  <a href="detected.mp4">
+    <img src="detected.mp4" alt="SOD of dog running">
+  </a>
+</p>
+<br/>
+<h3 align="center">Salient Object detection - examples created using published models</h3>
 <br/>
 <br/>
 
