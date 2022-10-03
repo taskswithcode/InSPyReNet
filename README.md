@@ -12,7 +12,8 @@
   </a>
 </p>
 <br/>
-<h3 align="center">Salient Object detection - examples created using published models</h3>
+<h3 align="center">Salient Object detection - examples created using published model</h3>
+<h4 align="center"><a href="https://medium.com/@taskswithcode/twc-9-7c960c921f69">Newsletter describing this paper</a></h4>
 <br/>
 <br/>
 
