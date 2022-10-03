@@ -69,7 +69,7 @@ Test:
         num_workers: 8
         pin_memory: True
     Checkpoint:
-        checkpoint_dir: "snapshots/InSPyReNet_SwinB"
+        checkpoint_dir: "twc_models"
 
 Eval:
     gt_root: "data/Test_Dataset"
