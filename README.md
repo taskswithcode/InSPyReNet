@@ -7,8 +7,8 @@
 </p>
 <br/>
 <p align="center">
-  <a href="doc_running.mp4">
-    <img src="doc_running.mp4" alt="Dog running">
+  <a href="dog_running.mp4">
+    <img src="dog_running.mp4" alt="Dog running">
   </a>
 </p>
 <p align="center">
