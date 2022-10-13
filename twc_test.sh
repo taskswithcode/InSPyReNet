@@ -1,4 +1,4 @@
-Usage="Specify <input image/video file> [<output_dir>] [blur/map]"
+Usage="Specify <input image/video file> [<output_dir>] [blur/map/green]"
 inp=${1?$Usage}
 output=${2-"results"}
 mask_type=${3-"blur"}
