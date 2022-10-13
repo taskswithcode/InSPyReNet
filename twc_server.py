@@ -28,11 +28,9 @@ init_seed()
 def healthcheck(request):
     return response.json({"ip_address": request.ip,"status":"okay"})
 
-def notify_api_usage():
+def notify_api_usage(ip_address,user_agent):
     try:
-        hostname = socket.gethostname()
-        ip_address = socket.gethostbyname(hostname)
-        sys_call = f"./twc_notify_use.sh {ip_address} {hostname} {APP_NAME} POST {API_NOTIFY_SERVER}"
+        sys_call = f"./twc_notify_use.sh {ip_address} {user_agent} {APP_NAME} POST {API_NOTIFY_SERVER}"
         ret_code = os.system(sys_call)
         print(f"API use ret code:{ret_code}")
     except Exception as e:
@@ -79,7 +77,7 @@ async def inference(request):
             content_type = "text/json"
     os.remove(in_file)
     os.remove(out_file)
-    notify_api_usage()
+    notify_api_usage(request.ip,request.headers['user-agent'])
 
     print("Processed response")
     return response.HTTPResponse(body=data,content_type=content_type)
